@@ -28,9 +28,10 @@
 
         </div>
 
+    <div class='foot'><?php include "footer.php"; ?> </div>
+
     </div>
 
-    <?php include "footer.php"; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>

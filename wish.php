@@ -39,6 +39,7 @@
             <table class="Table">
                 <tr>
                     <thead>
+                        <th>ID</th>
                         <th>Book Name</th>
                         <th>Author</th>
                         <th>Description</th>
@@ -47,6 +48,7 @@
                 <?php
                     foreach ($booksW as $w) {
                         echo "<tr>";
+                        echo "<td>" . $w['id'] . "</td>"; 
                         echo "<td>" . $w['book_name'] . "</td>"; 
                         echo "<td>" . $w['author'] . "</td>"; 
                         echo "<td>" . $w['descriptions'] . "</td>"; 

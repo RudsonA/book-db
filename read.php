@@ -38,6 +38,7 @@
         <div class="table">
             <table class="Table">
             <thead>
+                    <th>ID</th>
                     <th>Book Name</th>
                     <th>Author</th>
                     <th>Description</th>
@@ -45,6 +46,7 @@
             <?php
                 foreach ($booksR as $r) {
                     echo "<tr>";
+                    echo "<td>" . $r['id'] . "</td>"; 
                     echo "<td>" . $r['book_name'] . "</td>";
                     echo "<td>" . $r['author'] . "</td>";
                     echo "<td>" . $r['descriptions'] . "</td>";
@@ -56,10 +58,10 @@
 
         
 
+    <?php include "footer.php"; ?>
     </div>
 
 
-    <?php include "footer.php"; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
