@@ -26,7 +26,7 @@
             <input type="text" name="read_it" id="read_it" placeholder="Enter the books you've read">
             <input type="text" name="read_author" placeholder="Enter the author's name">
             <input type="text" name="read_des" placeholder="Enter your thoughts of the book">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" class="submit">
         </form>
         
         <br>
