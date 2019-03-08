@@ -4,7 +4,7 @@
         <div class="tableL">
             <table class="Table">
             <thead>
-                    <th>Books Read</th>
+                    <th> <a href="read.php">Books Read</a></th>
                 </thead
                 <?php       
                     foreach ($booksR as $r) {
@@ -19,7 +19,7 @@
         <div class="tableR">
             <table class="Table">
             <thead>
-                    <th>Wishlist</th> 
+                    <th> <a href="wish.php"> Wishlist </a> </th> 
                 </thead
                 <?php
                     foreach ($booksW as $w) {
