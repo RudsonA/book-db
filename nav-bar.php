@@ -13,7 +13,7 @@
  
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active">
+                <li>
                     <a href="read.php">Read</a>
                 </li>
                 <li>
