@@ -38,7 +38,7 @@
         <div class="table">
             <table class="Table">
             <thead>
-                    <th>ID</th>
+                    <!-- <th>ID</th> -->
                     <th>Book Name</th>
                     <th>Author</th>
                     <th>Description</th>

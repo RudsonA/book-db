@@ -70,7 +70,7 @@ function updateOnClick() {
     if( !empty($_POST['read_update']) && isset($_POST['read_update']) ) {
         $update = validate($_POST['read_update']);
 
-        $sql = "INSERT INTO read_it (book_name, author, descriptions)SELECT id, book_name, author, descriptions FROM wish_to_read WHERE id='$update'"; 
+        $sql = "INSERT INTO read_it (id, book_name, author, descriptions)SELECT id, book_name, author, descriptions FROM wish_to_read WHERE id='$update'"; 
 
         global $conn;
         $conn -> exec($sql); 
