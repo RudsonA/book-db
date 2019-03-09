@@ -44,7 +44,27 @@ function wish_to_readOnClick() {
 
 }
 
+function readDeleteOnClick() {
+    if ( !empty($_POST['readID']) && isset($_POST['readID']) ) {
+        $readID = validate($_POST['readID']); 
 
+        $sql = "DELETE FROM read_it WHERE id='$readID'"; 
+
+        global $conn;
+        $conn -> exec($sql); 
+    }
+}
+
+function wishDeleteOnClick() {
+    if ( !empty($_POST['wishID']) && isset($_POST['wishID']) ) {
+        $wishID = validate($_POST['wishID']); 
+
+        $sql = "DELETE FROM wish_to_read WHERE id='$wishID'";
+
+        global $conn;
+        $conn -> exec($sql); 
+    }
+}
 
 print "<br>"; 
 
