@@ -19,9 +19,9 @@
                 <li>
                     <a href="wish.php">Wish</a>
                 </li>
-                <!-- <li>
-                    <a href="update.php">Update</a>
-                </li> -->
+                <li>
+                    <a href="delete.php">Delete</a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
  

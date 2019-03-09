@@ -27,8 +27,7 @@
 
 
         </div>
-
-    <div class='foot'><?php include "footer.php"; ?> </div>
+            <?php include "footer.php"; ?> 
 
     </div>
 
