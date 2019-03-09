@@ -46,7 +46,7 @@
             <?php
                 foreach ($booksR as $r) {
                     echo "<tr>";
-                    echo "<td>" . $r['id'] . "</td>"; 
+                    // echo "<td>" . $r['id'] . "</td>"; 
                     echo "<td>" . $r['book_name'] . "</td>";
                     echo "<td>" . $r['author'] . "</td>";
                     echo "<td>" . $r['descriptions'] . "</td>";
