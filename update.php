@@ -26,7 +26,7 @@
         <div id="update">
             <form action="" method="post">
                 <label> Transfers book wanting to read to the book's already read:</label>
-                <input type="number" name="read_update">
+                <input type="text" name="read_update">
                 <input type="submit" value="READ" class='submit'>
             </form>
         </div>
