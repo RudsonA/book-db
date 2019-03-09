@@ -23,13 +23,13 @@
     <form action="" method="post">
         <label>Insert the ID of read books you wish to delete:</label>
         <input type="text" name="readID">
-        <input type="submit" value="Read DELETE">
+        <input type="submit" value="Read DELETE" class='submit'>
     </form>
 
     <form action="" method="post">
         <label>Insert the ID of wish books you want to delete:</label>
         <input type="text" name="wishID">
-        <input type="submit" value="Read DELETE">
+        <input type="submit" value="Read DELETE" class='submit'>
     </form>
 
 </div>

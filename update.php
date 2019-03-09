@@ -25,8 +25,9 @@
 
         <div id="update">
             <form action="" method="get">
-                <label> To update the read table</label>
-                <input type="text" name="read_update" placeholder="">
+                <label> Transfers book wanting to read to the book's already read:</label>
+                <input type="text" name="read_update">
+                <input type="submit" value="READ" class='submit'>
             </form>
         </div>
 
@@ -34,9 +35,6 @@
 
 
     </div>
-
-
-
 
     <?php include "footer.php"; ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
