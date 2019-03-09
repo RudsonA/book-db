@@ -7,6 +7,7 @@ read_itOnClick();
 wish_to_readOnClick();
 readDeleteOnClick();
 wishDeleteOnClick(); 
+updateOnClick();
 
 $stmtread_it = $conn->prepare("SELECT id, book_name, author, descriptions FROM read_it");
 $stmtread_it->execute(); 
