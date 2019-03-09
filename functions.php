@@ -74,6 +74,11 @@ function updateOnClick() {
 
         global $conn;
         $conn -> exec($sql); 
+
+        $sql = "DELETE FROM wish_to_read WHERE id='$update'";
+
+        global $conn;
+        $conn -> exec($sql); 
     }
 }
 
